@@ -1,0 +1,32 @@
+[project]
+name = "lab-ciencia-datos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab>=4.5.6",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "plotly>=6.6.0",
+    "pre-commit>=4.5.1",
+    "ruff>=0.15.6",
+    "scikit-learn>=1.8.0",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors: errores de estilo (indentación, espacios, etc.)
+    "W",   # pycodestyle warnings: advertencias de estilo menores
+    "F",   # pyflakes: imports no usados, variables indefinidas, nombres duplicados
+    "I",   # isort: orden y agrupación correcta de imports
+    "B",   # flake8-bugbear: patrones propensos a bugs y malas prácticas
+    "UP",  # pyupgrade: modernización automática de sintaxis a Python 3.12+
+]
+ignore = [
+    "E501", # line-too-long: largo de línea (delegado a ruff-format)
+]
