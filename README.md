@@ -6,10 +6,10 @@ Este repositorio contiene los laboratorios y entregas del curso, organizados por
 
 ## Integrantes
 
-| Nombre                           | GitHub                                      |
-| -------------------------------- | ------------------------------------------- |
-| Agustin Eduardo González Hidalgo | [@usuario1](https://github.com/awastinatus) |
-| Vicente Ignacio Thiele Muñoz     | [@usuario2](https://github.com/elvixooo)    |
+| Nombre                           | GitHub                                        |
+| -------------------------------- | --------------------------------------------- |
+| Agustin Eduardo González Hidalgo | [awastinatus](https://github.com/awastinatus) |
+| Vicente Ignacio Thiele Muñoz     | [elvixooo](https://github.com/elvixooo)       |
 
 ## Estructura del repositorio
 
