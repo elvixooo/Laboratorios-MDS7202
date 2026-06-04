@@ -7,17 +7,22 @@ requires-python = ">=3.14"
 dependencies = [
     "category-encoders>=2.9.0",
     "jupyterlab>=4.5.6",
+    "lightgbm>=4.6.0",
     "matplotlib>=3.10.8",
     "missingno>=0.5.2",
+    "nltk>=3.9.4",
     "numpy>=2.4.3",
     "openpyxl>=3.1.5",
+    "optuna>=4.9.0",
     "pandas>=3.0.1",
     "pillow>=12.1.1",
     "plotly>=6.6.0",
     "pre-commit>=4.5.1",
     "ruff>=0.15.6",
     "scikit-learn>=1.8.0",
+    "shap>=0.52.0",
     "umap-learn>=0.5.12",
+    "xgboost>=3.2.0",
 ]
 
 [tool.ruff]
