@@ -1,0 +1,30 @@
+# Entorno virtual
+.venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Control de versiones
+.git/
+.gitignore
+
+# MLFlow y Optuna (solo para entrenamiento)
+mlruns/
+optuna_lab8.db
+
+# Datos de entrenamiento y scripts
+water_potability.csv
+optimize.py
+
+# Artefactos generados
+plots/
+
+# Notebooks y documentación
+*.ipynb
+*.md
+
+# Docker
+.dockerignore
